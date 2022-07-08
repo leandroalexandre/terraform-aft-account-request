@@ -12,7 +12,6 @@ module "sandbox" {
 
   account_tags = {
     "Learn Tutorial" = "AFT"
-    "E-mail" = AccountEmail
   }
 
   change_management_parameters = {
@@ -24,5 +23,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sanbox"
+  account_customizations_name = "sandbox"
 }
