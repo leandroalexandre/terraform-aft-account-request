@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "danilommonteiro+lab-01@outlook.com"
     AccountName               = "account-lab-01"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "labs"
     SSOUserEmail              = "danilommonteiro+aft@outlook.com"
     SSOUserFirstName          = "Account"
     SSOUserLastName           = "Lab-01"
@@ -24,5 +24,5 @@ module "sandbox" {
     group = "non-prod"
   }
 
-  account_customizations_name = "account-lab"
+  account_customizations_name = "sanbox"
 }
