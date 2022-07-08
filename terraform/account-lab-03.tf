@@ -11,7 +11,7 @@ module "account-lab-02" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT-03"
+    "Learn Tutorial" = "AFT-003"
   }
 
   change_management_parameters = {
