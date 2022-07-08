@@ -2,16 +2,16 @@ module "account-lab-02" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "danilommonteiro+lab-02@outlook.com"
-    AccountName               = "account-lab-02"
+    AccountEmail              = "danilommonteiro+lab-03@outlook.com"
+    AccountName               = "account-lab-03"
     ManagedOrganizationalUnit = "labs"
     SSOUserEmail              = "danilommonteiro+aft@outlook.com"
     SSOUserFirstName          = "Account"
-    SSOUserLastName           = "Lab-02"
+    SSOUserLastName           = "Lab-03"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT-02"
+    "Learn Tutorial" = "AFT-03"
   }
 
   change_management_parameters = {
