@@ -1,4 +1,4 @@
-module "account-lab-02" {
+module "account-lab-03" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
